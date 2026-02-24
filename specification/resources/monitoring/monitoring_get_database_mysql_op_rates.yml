@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_op_rates
 
-summary: Retrieve MySQL Operations Throughput
+summary: Get Database MySQL Operations Throughput Metrics
 
 description: >-
   Retrieve operations rate (per second) for a MySQL service. Use **metric** to

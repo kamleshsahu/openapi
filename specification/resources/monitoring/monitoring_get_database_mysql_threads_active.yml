@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_threads_active
 
-summary: Retrieve MySQL Threads Active
+summary: Get Database MySQL Threads Active Metrics
 
 description: Retrieve active (running) threads for a MySQL service.
 

@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_memory_usage
 
-summary: Retrieve MySQL Memory Usage
+summary: Get Database MySQL Memory Usage Metrics
 
 description: >-
   Retrieve memory usage (percent) for a MySQL cluster. Use **aggregate** (avg, max,

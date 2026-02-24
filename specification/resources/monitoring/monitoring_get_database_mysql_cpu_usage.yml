@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_cpu_usage
 
-summary: Retrieve MySQL CPU Usage
+summary: Get Database MySQL CPU Usage Metrics
 
 description: >-
   Retrieve CPU usage (percent) for a MySQL cluster. Response is a time series of

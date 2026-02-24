@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_load
 
-summary: Retrieve MySQL Load Average
+summary: Get Database MySQL Load Average Metrics
 
 description: >-
   Retrieve load average for a MySQL cluster. Use **metric** for load1, load5, or

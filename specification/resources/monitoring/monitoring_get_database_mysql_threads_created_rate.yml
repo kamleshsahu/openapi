@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_threads_created_rate
 
-summary: Retrieve MySQL Threads Created Rate
+summary: Get Database MySQL Threads Created Rate Metrics
 
 description: Retrieve threads created rate for a MySQL service (per second).
 

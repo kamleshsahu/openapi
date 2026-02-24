@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_disk_usage
 
-summary: Retrieve MySQL Disk Usage
+summary: Get Database MySQL Disk Usage Metrics
 
 description: >-
   Retrieve disk usage (percent) for a MySQL cluster. Use **aggregate** (avg, max,

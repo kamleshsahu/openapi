@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_threads_connected
 
-summary: Retrieve MySQL Threads Connected
+summary: Get Database MySQL Threads Connected Metrics
 
 description: Retrieve current threads connected for a MySQL service (gauge).
 

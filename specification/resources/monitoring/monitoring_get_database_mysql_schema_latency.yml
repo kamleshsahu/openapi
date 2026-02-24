@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_schema_latency
 
-summary: Retrieve MySQL Schema Latency
+summary: Get Database MySQL Schema Latency Metrics
 
 description: >-
   Retrieve table I/O latency (seconds) for a schema. Requires **schema** and

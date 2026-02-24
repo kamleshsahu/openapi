@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_index_vs_sequential_reads
 
-summary: Retrieve MySQL Index vs Sequential Reads
+summary: Get Database MySQL Index vs Sequential Reads Metrics
 
 description: >-
   Retrieve index vs sequential reads ratio (percent) for a MySQL service — i.e.

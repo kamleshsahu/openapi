@@ -1,6 +1,6 @@
 operationId: monitoring_get_database_mysql_schema_throughput
 
-summary: Retrieve MySQL Schema Throughput
+summary: Get Database MySQL Schema Throughput Metrics
 
 description: >-
   Retrieve table I/O throughput (rows per second) for a schema. Requires **schema**
