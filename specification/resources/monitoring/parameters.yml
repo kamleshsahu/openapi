@@ -136,7 +136,7 @@ aggregate_avg_max_min:
   in: query
   name: aggregate
   required: true
-  description: Aggregation over the time range: avg, max, or min.
+  description: Aggregation over the time range (avg, max, or min).
   schema:
     type: string
     enum:
@@ -149,7 +149,7 @@ aggregate_avg_max:
   in: query
   name: aggregate
   required: true
-  description: Aggregation over the time range: avg or max.
+  description: Aggregation over the time range (avg or max).
   schema:
     type: string
     enum:
@@ -161,7 +161,9 @@ metric_load:
   in: query
   name: metric
   required: true
-  description: Load average window: load1, load5, or load15.
+  description: >-
+    Load window: **load1** (1-minute), **load5** (5-minute), **load15** (15-minute). The value is
+    either average or max over that window, depending on the **aggregate** parameter (avg or max).
   schema:
     type: string
     enum:
@@ -174,7 +176,7 @@ metric_op_rates:
   in: query
   name: metric
   required: true
-  description: Operation type: select, insert, update, or delete.
+  description: Operation type (select, insert, update, or delete).
   schema:
     type: string
     enum:
@@ -188,7 +190,7 @@ metric_schema_io:
   in: query
   name: metric
   required: true
-  description: Table I/O operation: insert, fetch, update, or delete.
+  description: Table I/O operation (insert, fetch, update, or delete).
   schema:
     type: string
     enum:

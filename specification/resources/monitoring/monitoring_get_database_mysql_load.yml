@@ -3,8 +3,9 @@ operationId: monitoring_get_database_mysql_load
 summary: Get Database MySQL Load Average Metrics
 
 description: >-
-  Retrieve load average for a MySQL cluster. Use **metric** for load1, load5, or
-  load15 and **aggregate** for avg or max.
+  Retrieve load metrics for a MySQL cluster. Use **metric** for the window: **load1** (1-minute),
+  **load5** (5-minute), or **load15** (15-minute). Use **aggregate** to get either the average (avg)
+  or maximum (max) over that window over the time range.
 
 tags:
   - Monitoring
